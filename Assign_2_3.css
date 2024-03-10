@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #b0b0b4, #5f79cf);
+}
+.navbar {
+    background-color: #5228de;
+    overflow: hidden;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    transition: top 0.3s;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #010c12;
+    color: rgb(254, 253, 253);
+}
+.content {
+    padding-top: 60px;
+    height: 1500px;
+}
